@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="you want runing to packages">
+    <test name="package">
+        <packages>
+            <package name="tests.day18"/>
+        </packages>
+    </test>
+    <test name="other test">
+        <classes>
+            <class name="tests.day18.C01_PageClassFaceBookTest"/>
+        </classes>
+    </test>
+</suite>
